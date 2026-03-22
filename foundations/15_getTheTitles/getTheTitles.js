@@ -6,5 +6,10 @@ const getTheTitles = function(books) {
     return ans
 };
 
+// the method below is using the map() method to achieve the same logic as above
+// const getTheTitles = function(books) {
+//     return books.map(book => book.title);
+// };
+
 // Do not edit below this line
 module.exports = getTheTitles;
